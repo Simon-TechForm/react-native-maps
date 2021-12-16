@@ -10,7 +10,7 @@
     "strict": true,
     "target": "esnext",
     "declaration": true,
-    "noEmit": false
-    // "outDir": "dist"
+    "noEmit": false,
+    "outDir": "lib"
   }
 }
