@@ -35,5 +35,4 @@ jobs:
       - name: Publish
         run: yarn publish
         env:
-          YARN_NPM_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
-          YARN_NPM_PUBLISH_REGISTRY: https://npm.pkg.github.com
+          NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
