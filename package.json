@@ -18,10 +18,7 @@
     "react-native-google-maps.podspec",
     "react-native-maps.podspec"
   ],
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/Simon-TechForm/react-native-maps"
-  },
+  "repository": "git://github.com/Simon-TechForm/react-native-maps.git",
   "keywords": [
     "react",
     "react-native",
