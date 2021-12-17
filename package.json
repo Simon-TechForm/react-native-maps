@@ -1,6 +1,7 @@
 {
   "name": "react-native-maps",
   "description": "React Native Mapview component for iOS + Android",
+  "registry": "git://github.com/Simon-TechForm/react-native-maps.git",
   "main": "lib/index.js",
   "author": "Leland Richardson <leland.m.richardson@gmail.com>",
   "version": "0.30.0",
@@ -52,6 +53,9 @@
   },
   "dependencies": {
     "@types/geojson": "^7946.0.7"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
   },
   "jest": {
     "preset": "react-native",
