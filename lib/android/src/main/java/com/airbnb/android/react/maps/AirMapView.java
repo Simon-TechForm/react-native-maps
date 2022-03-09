@@ -216,7 +216,7 @@ public class AirMapView extends MapView implements GoogleMap.InfoWindowAdapter,
     this.map = map;
     this.map.setInfoWindowAdapter(this);
     this.map.setOnMarkerDragListener(this);
-    this.map.setOnPoiClickListener(this);
+    // this.map.setOnPoiClickListener(this); // new renderer prioritizes this over marker and map clicks
     this.map.setOnIndoorStateChangeListener(this);
 
     manager.pushEvent(context, this, "onMapReady", new WritableNativeMap());
